@@ -8,8 +8,8 @@ var bestTime;
 
 function setup() {
 	createCanvas(800, 600);
-	potatoBackground = loadImage("background.png");
-	potato = loadImage("potato.png");
+	potatoBackground = loadImage("assets/background.png");
+	potato = loadImage("assets/potato.png");
 	textFont("Gloria Hallelujah");
 	textSize(32);
 	potatoText = "Click the potato to start being a potato";
