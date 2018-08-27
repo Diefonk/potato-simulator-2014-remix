@@ -31,6 +31,7 @@ function draw() {
 		if (countdown <= 0) {
 			isPotato = false;
 			document.getElementById("music").pause();
+			totalTime += countdown;
 			if (totalTime > bestTime) {
 				bestTime = totalTime;
 			}
